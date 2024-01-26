@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "BeKind",
+    "slug": "snack-41d9c2dc-31eb-4a87-942c-ce2ce22db9f0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Loading.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/IconAdaptado.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDHvIsHecSYYKsfuHGghUhh08utDrV_N_4"
+        }
+      },
+      "package": "com.gabrielbede.snack41d9c2dc31eb4a87942cce2ce22db9f0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Snack do aplicativo da BeKind\n",
+    "extra": {
+      "eas": {
+        "projectId": "a99411af-5844-46d6-a637-27f0cc93d5b6"
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permitir BeKind a usar sua localização."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
